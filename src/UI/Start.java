@@ -25,16 +25,16 @@ public class Start extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(81, 81, 81)
+                .addGap(54, 54, 54)
                 .addComponent(title)
-                .addContainerGap(106, Short.MAX_VALUE))
+                .addContainerGap(66, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(63, 63, 63)
+                .addGap(37, 37, 37)
                 .addComponent(title)
-                .addContainerGap(74, Short.MAX_VALUE))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         pack();
@@ -42,6 +42,7 @@ public class Start extends javax.swing.JFrame {
 
     private void settings() {
         this.setLocationRelativeTo(null);
+        setResizable(false);
         setIconImage(Static.getIconImage());
         setTitle(Static.title + " " + Static.version);
         this.setVisible(true);
