@@ -1,6 +1,7 @@
 
 package Logic;
 
+import Object.Instrucction;
 import java.io.Serializable;
 
 public class UserData implements Serializable {

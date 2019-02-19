@@ -17,7 +17,7 @@ public class Start extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        title.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        title.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         title.setText("VICEBot");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -25,16 +25,16 @@ public class Start extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(54, 54, 54)
+                .addGap(22, 22, 22)
                 .addComponent(title)
-                .addContainerGap(66, Short.MAX_VALUE))
+                .addContainerGap(592, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(37, 37, 37)
+                .addContainerGap()
                 .addComponent(title)
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addContainerGap(467, Short.MAX_VALUE))
         );
 
         pack();
