@@ -9,7 +9,7 @@ import java.util.LinkedList;
 public class Static {
 
     public static String folderForDataName = "VICEBot";
-    public static String globalFolderForData = "Just Vice";
+    public static String globalFolderForData = "SPLIT VICE";
     public static String DataPath = System.getenv("APPDATA") + "\\" + globalFolderForData + "\\" + folderForDataName + "\\UserData.txt";
     public static String DataFolderPath = System.getenv("APPDATA") + "\\" + globalFolderForData + "\\" + folderForDataName;
     public static String title = "VICEBot",version = "PRE-ALPHA 0.3";
